@@ -1,0 +1,47 @@
+@import url("/components/component-library/index.css");
+
+:root {
+  --white: #fff;
+  --nav-shadow-gray: #a6a6a6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 4rem;
+  box-shadow: 0px 5px 3px 0px var(--nav-shadow-gray);
+}
+
+.header .logo a {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.header-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-nav li {
+  display: inline-block;
+}
+
+.header-nav a {
+  padding: 0.8rem;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav img {
+  width: 32px;
+  height: 32px;
+}

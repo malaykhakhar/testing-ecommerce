@@ -1,0 +1,22 @@
+@import url("/components/component-library/index.css");
+
+.grid-container {
+  display: grid;
+  background-color: gray;
+  width: 50vw;
+  height: 5rem;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.two-items-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three-items-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cell {
+  background-color: white;
+}

@@ -1,0 +1,41 @@
+@import url("/components/component-library/index.css");
+
+:root {
+  --gray: #374151;
+}
+
+.heading1 {
+  font-size: 4rem;
+}
+
+.heading2 {
+  font-size: 3.5rem;
+}
+
+.heading3 {
+  font-size: 3rem;
+}
+
+.heading4 {
+  font-size: 2.5rem;
+}
+
+.heading5 {
+  font-size: 2rem;
+}
+
+.heading6 {
+  font-size: 1.5rem;
+}
+
+.text-small {
+  font-size: 1.2rem;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-centre {
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+@import url("/components/component-library/index.css");
+
+:root {
+  --error-msg: red;
+  --success-msg: green;
+}
+
+.form {
+  margin: 2rem 0;
+}
+
+.form-item {
+  width: 40rem;
+}
+
+.form-input {
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.form-error-msg {
+  color: var(--error-msg);
+}
+
+.form-input-error {
+  border: 1px solid var(--error-msg);
+}
+
+.form-input-success {
+  border: 1px solid var(--success-msg);
+}
+
+.form-success-msg {
+  color: var(--success-msg);
+}

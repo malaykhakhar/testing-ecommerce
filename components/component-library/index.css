@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital,wght@1,500&display=swap");
+
+:root {
+  --primary-color: rgba(218, 177, 98, 1);
+}
+
+h1,
+h4 {
+  margin: 0;
+}
+
+.remove-deco {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  padding: 1rem;
+  max-width: 10rem;
+  background: #334b71;
+  border-radius: 30px;
+}
+
+.active .active-color {
+  color: white;
+}
+
+.main-para {
+  margin: 3rem 0;
+}
+
+.container-alert {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.container-avatars {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-image {
+  margin: 0auto;
+  width: 98.7vw;
+  /* position: relative; */
+}
+
+.container-card {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin: 2.5rem 0;
+}

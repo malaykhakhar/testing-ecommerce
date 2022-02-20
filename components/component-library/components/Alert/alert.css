@@ -1,0 +1,40 @@
+@import url("/components/component-library/index.css");
+
+:root {
+  --primary-green: rgba(169, 252, 177, 0.4);
+  --secondary-green: #537c1e;
+
+  --primary-red: #ffdddd;
+  --secondary-red: #ff0000;
+
+  --primary-yellow: rgba(245, 222, 11, 0.22);
+  --secondary-yellow: #605c00;
+
+  --primary-blue: #ddeaff;
+  --secondary-blue: #334b71;
+}
+
+.alert {
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+}
+
+.alert-success {
+  background: var(--primary-green);
+  border: 1px solid var(--secondary-green);
+}
+
+.alert-error {
+  background: var(--primary-red);
+  border: 1px solid var(--secondary-red);
+}
+
+.alert-warning {
+  background: var(--primary-yellow);
+  border: 1px solid var(--secondary-yellow);
+}
+
+.alert-info {
+  background: var(--primary-blue);
+  border: 1px solid var(--secondary-blue);
+}

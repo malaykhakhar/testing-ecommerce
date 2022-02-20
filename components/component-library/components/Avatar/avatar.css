@@ -1,0 +1,30 @@
+@import url("/components/component-library/index.css");
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar-xl {
+  height: 8rem;
+  width: 8rem;
+}
+
+.avatar-l {
+  height: 7rem;
+  width: 7rem;
+}
+
+.avatar-m {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-s {
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar-xs {
+  height: 4rem;
+  width: 4rem;
+}

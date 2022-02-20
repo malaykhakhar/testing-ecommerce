@@ -1,0 +1,69 @@
+@import url("/components/component-library/components/Avatar/avatar.css");
+@import url("/components/component-library/index.css");
+
+:root {
+  --white: #fff;
+  --primary-red: red;
+  --primary-green: #2ea74c;
+  --primary-gray: rgb(189, 188, 188);
+}
+.container-badge {
+  position: relative;
+}
+
+.badge-avatar {
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--white);
+  top: 60%;
+  left: 70%;
+}
+
+.badge-xl {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.badge-l {
+  height: 2rem;
+  width: 2rem;
+}
+
+.badge-m {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.badge-s {
+  height: 1rem;
+  width: 1rem;
+}
+
+.badge-xs {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.badge-online {
+  background-color: var(--primary-green);
+}
+
+.badge-offline {
+  background-color: var(--primary-red);
+}
+
+.badge-dnd {
+  background-color: var(--primary-gray);
+}
+
+.badge-icon {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--primary-red);
+  font-size: 1.4rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  color: var(--white);
+  left: 75%;
+  bottom: 70%;
+}

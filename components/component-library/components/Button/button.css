@@ -1,0 +1,58 @@
+@import url("/components/component-library/index.css");
+
+:root {
+  --secondary-color: #047bfb;
+  --white: #fff;
+}
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-link {
+  background-color: var(--primary-color);
+}
+
+.btn-link-outline {
+  background: var(--white);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-link a {
+  color: var(--white);
+}
+
+.btn-link-outline a {
+  color: var(--primary-color);
+}
+
+.btn-icon-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn-floating {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  height: 4rem;
+  width: 4rem;
+}

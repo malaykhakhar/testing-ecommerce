@@ -1,0 +1,11 @@
+@import url("/components/component-library/index.css");
+
+.img-resp {
+  width: 100%;
+}
+
+.img-round {
+  height: 40rem;
+  width: 40rem;
+  border-radius: 50%;
+}
